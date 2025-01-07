@@ -94,11 +94,11 @@
 							<p>Complete this form below <p>
 
 				<!--Form -->
-							<form method="post" action="#">
+							<form method="post" action="send.php">
 								<div class="fields">
 									<div class="field half">
 										<label for="name">Name</label>
-										<input type="text" name="name" id="name" value="" />
+										<input type="text" name="name" id="name" value="" $name=$_POST[provide the name]/>
 									</div>
 									<div class="field half">
 										<label for="email">Email</label>
@@ -106,19 +106,19 @@
 									</div>
 									<div class="field half">
 										<label for="street">Street Adress</label>
-										<input type="street" name="street" id="street" value="" />
+										<input type="text" name="street" id="street" value="" />
 									</div>
 									<div class="field half">
 										<label for="zip">ZIP Code</label>
-										<input type="zip" name="zip" id="zip" value="" />
+										<input type="text" name="zip" id="zip" value="" />
 									</div>
 									<div class="field half">
 										<label for="city">City</label>
-										<input type="city" name="city" id="city" value="" />
+										<input type="text" name="city" id="city" value="" />
 									</div>
 									<div class="field half">
 										<label for="state">State</label>
-										<input type="state" name="state" id="state" value="" />
+										<input type="text" name="state" id="state" value="" />
 									</div>
 									<div class="field">
 										<label for="message">Any comments regarding your order or leave a message for the Author (optional)</label>
